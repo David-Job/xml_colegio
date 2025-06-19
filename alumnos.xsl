@@ -3,7 +3,7 @@
 
 	<xsl:output method="html" encoding="UTF-8" indent="yes" />
 
-	<xsl:template match="/colegio/alumnos">
+	<xsl:template match="/colegio">
 		<html>
 			<head>
 				<meta charset="UTF-8" />
@@ -26,7 +26,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						<xsl:for-each select="alumno">
+						<xsl:for-each select="alumnos/alumno">
 							<tr>
 								<td>
 									<xsl:value-of
