@@ -5,7 +5,6 @@
 
 Ejercicios
 ---
----
 
 1. **Diseñar un documento XML** que contenga información sobre **alumnos**, **profesores** y **asignaturas**, agrupadas de forma jerárquica.
 2. **Diseñar un esquema XSD** que valide dicho XML, cumpliendo los siguientes requisitos:
